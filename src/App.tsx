@@ -1,11 +1,7 @@
-import "./App.css";
+import ReactQueryPlayground from "./components/ReactQueryPlayground";
 
 function App() {
-  return (
-    <div>
-      <p className="text-blue-700">Empty</p>
-    </div>
-  );
+  return <ReactQueryPlayground />;
 }
 
 export default App;
